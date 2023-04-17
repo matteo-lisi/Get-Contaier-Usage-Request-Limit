@@ -1,0 +1,15 @@
+# File Ext.
+*.csv
+*.yaml
+*.yml
+*.retry
+*.sh
+
+# Certificate Ext.
+*.crt
+*.key
+*.csr
+*.pem
+
+# MacOS file
+.DS_Store
