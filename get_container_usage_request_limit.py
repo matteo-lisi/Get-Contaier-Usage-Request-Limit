@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+##
+## Author Matteo Lisi
+## Collects information about Requests, Limit and CPU and RAM usage for all containers present on the OCP cluster
+## https://github.com/matteo-lisi/Get-Contaier-Usage-Request-Limit
+##
+
 from kubernetes import client, config
 from openshift.dynamic import DynamicClient
 import urllib3
